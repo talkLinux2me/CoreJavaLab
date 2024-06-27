@@ -20,6 +20,13 @@ public class ArithmeticOperatorsDemo {
         System.out.println("Unary operator resulted in " + x);
 
 
+        // Some examples of special Cases
+        int tooBig = Integer.MAX_VALUE + 1; // -2147483648 which is
+        // Integer.MIN_VALUE.
+        int tooSmall = Integer.MIN_VALUE - 1; // 2147483647 which is
+        // Integer.MAX_VALUE.
+        System.out.println("tooBig becomes " + tooBig);
+        System.out.println("tooSmall becomes " + tooSmall);
 
 
 
